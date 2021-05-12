@@ -5,6 +5,6 @@ COPY package.json /app
 RUN npm install
 COPY . /app
 
-EXPOSE 8080
+EXPOSE 80
 
 CMD ["node", "index.js"]
